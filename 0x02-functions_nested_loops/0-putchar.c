@@ -1,13 +1,13 @@
 #include "main.h"
-	/**
-	 * main - main function
-	 * _putcher: print the alphabets putcher
-	 * Return: always 0
-	 */
+/**
+ * main - main function
+ * _putchar - print the alphabets putcher
+ * Return: always 0
+ */
 
 
-	int main(void)
-	{
+int main(void)
+{
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
@@ -18,4 +18,4 @@
 	_putchar('r');
 	_putchar('\n');
 	return (0);
-	}
+}
