@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * get_bit_val - returns the value of a bit at a specified index in a decimal
+ * get_bit - returns the value of a bit at a specified index in a decimal
  *
- * @num: An unsigned long integer representing the decimal number to search.
+ * @n: An unsigned long integer representing the decimal number to search.
  * @idx: An unsigned integer representing the index of bit return.less than 64.
  *
  * Return: If the index is invalid
