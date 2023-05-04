@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -5,7 +6,7 @@
  *
  * @n: An unsigned long integer representing the decimal number to print in bi
  *
- * Return anything, it simply prints the binary representation of the decimal
+ * Return : anything, it simply prints the binary representation of the decimal
  * number to the console.
  */
 void print_binary(unsigned long int n)
@@ -19,12 +20,12 @@ void print_binary(unsigned long int n)
 
 		if (current & 1)
 		{
-			_putchar('1');
+			putchar('1');
 			count++;
 		}
 		else if (count)
-			_putchar('0');
+			putchar('0');
 	}
 	if (!count)
-		_putchar('0');
+		putchar('0');
 }
