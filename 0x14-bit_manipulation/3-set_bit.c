@@ -7,7 +7,7 @@
  * @num: A pointer to the unsigned long integer to change.
  * @idx: An unsigned integer representing the index of the bit to set to 1.
  *
- * @Return: 1 on success, -1 on error
+ * Return: 1 on success, or -1 if an error occurred.
  */
 int set_bit(unsigned long int *num, unsigned int idx)
 {
